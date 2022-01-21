@@ -23,15 +23,15 @@ var LOGODISC = '';
 var des = '';
 if (Details.LANG == 'SI') {
    des = 'ඉමෝජි පින්තූර බවට පත් කරයි'
-   LOGODISC = '350 කට අදික ඌ ලෝගො සෑදීම සදහා යොදා ගන්න.අනිවාරයෙන් වචන දෙකක් යෙදිය යුතු අතර වචන දෙක / මගින් වෙන් කරන්න.\n🎲උදා:- .textlogo SEW / QUEEN'
+   LOGODISC = '350 කට අදික ඌ ලෝගො සෑදීම සදහා යොදා ගන්න.අනිවාරයෙන් වචන දෙකක් යෙදිය යුතු අතර වචන දෙක / මගින් වෙන් කරන්න.\n🎲උදා:- .textlogo MR / SAVI'
 } else {
    des = "You Can Png From Any Emoji"
-   LOGODISC = '350+ Text To Image and Logo Maker... Need Two Words And Split Them Using /\neg : .textlogo SEW / Queen '
+   LOGODISC = '350+ Text To Image and Logo Maker... Need Two Words And Split Them Using /\neg : .textlogo MR / SAVI '
 }
 SewQueen['IntroduceCMD']({
         pattern: 'attp ?(.*)', 
         fromMe: WorkType, 
-        disc: 'ttp and 250+ sticker making command...\n*Usage:-* .attp Sew'
+        disc: 'ttp and 250+ sticker making command...\n*Usage:-* .attp SAVI'
        }, 
 (async (QueenSew, input) => {
  await sendMessagettp(QueenSew, input)
