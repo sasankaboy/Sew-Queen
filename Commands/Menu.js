@@ -55,7 +55,7 @@ SewQueen['IntroduceCMD']({
 await sendMessageAllMenupv(QueenSew,input)
 })); 
 SewQueen['IntroduceCMD']({
-        pattern: 'මෙනු ?(.*)', 
+        pattern: 'savi ?(.*)', 
         fromMe: false, 
         dontAdCommandList: true,
         }, 
@@ -64,7 +64,7 @@ SewQueen['IntroduceCMD']({
 await sendMessageAllMenupb(QueenSew,input)
 })); 
 SewQueen['IntroduceCMD']({
-        pattern: 'මෙනු ?(.*)', 
+        pattern: 'savi ?(.*)', 
         fromMe: true, 
         dontAdCommandList: true,
         }, 
